@@ -1,41 +1,64 @@
-.header{
-	display:flex;
-	background-color:black;	
-	padding: 5px 0 0 0;
-	color: white;
-}
-.image{
-	margin-right:29.25%;
-	margin-left:0.75%;
-}
-.subtitle{
-	margin-top:-25px;
-	margin-left:15%;
-}
-.title{
-	
-	color:gold;
-	font-size:35px;
-	font-style:algerian;
-}
-.nav_menu{
-	display:flex;
-	padding: 2px 20% 2px 20%;
-}
-.nav_menu_items{
-	padding: 0 5% 0 5%;
-	font-size:26px;
-	background-color:grey;
-	color:white;
-}
-.nav_menu_items:active{
-	background-color:red;
-	color:white;
-}
-.newsletter_btn:{
-	margin-left:;
+.header {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
 }
 
-.newsletter-area{
-	margin-left:40%;
+.image {
+    margin-right: 29.25%;
+    margin-left: 0.75%;
+}
+
+.subtitle {
+    margin-top: -25px;
+    margin-left: 15%;
+}
+
+.title {
+    color: gold;
+    font-size: 35px;
+    font-style: algerian;
+}
+
+.nav_menu {
+    display: flex;
+    padding: 0 0 0 0;
+}
+
+.nav_menu_items {
+    padding: 0 12.825% 0 12.825%;
+    font-size: 26px;
+    background-color: white;
+    color: white;
+}
+
+#more {
+    padding-right: 8.85%;
+}
+
+.nav_menu_items:active {
+    background-color: red;
+    color: white;
+}
+
+.newsletter_btn: {
+    margin-left: ;
+}
+
+.newsletter-area {
+    margin-left: 40%;
+}
+
+.soundtracks {
+    padding: 2% 20% 2% 20%;
+    height: 100%;
+}
+
+.full-page {
+    background-color: brown;
+}
+
+.foot {
+    background-color: black;
 }
